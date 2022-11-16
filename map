@@ -1,0 +1,169 @@
+PS C:\Users\Sanjay Dwivedi\rails1> irb
+irb(main):001:1* array =(1.  
+                             
+
+
+irb(main):001:0> array =(1..10).to_a).to_a                         10]
+=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+irb(main):002:0* array.       
+
+
+
+irb(main):002:1* array.map { |irb(main):002:0> array.map { |i| i+2 }
+=>
+[3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10,
+ 11,
+ 12]
+irb(main):003:0> array        
+=>
+[1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10]
+irb(main):004:0* array.       
+
+
+
+irb(main):004:1* array.map { |irb(main):004:0> array.map { |i| i*2}
+=>
+[2,
+ 4,
+ 6,
+ 8,
+ 10,
+ 12,
+ 14,
+ 16,
+ 18,
+ 20]
+irb(main):005:0> array        
+=>
+[1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10]
+irb(main):006:0* array.       
+
+
+
+irb(main):006:1* array.map! {|irb(main):006:0> array.map! {|i| i+2}
+=>
+[3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10,
+ 11,
+ 12]
+irb(main):007:0> array        
+=>
+[3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10,
+ 11,
+ 12]
+irb(main):008:0* array.       
+
+                              
+
+irb(main):008:1* array.map { |irb(main):008:0> array.map { |i| i*2}
+=>
+[6,
+ 8,
+ 10,
+ 12,
+ 14,
+ 16,
+ 18,
+ 20,
+ 22,
+ 24]
+irb(main):009:0>
+irb(main):010:0>
+irb(main):011:0>
+irb(main):012:0* array.       
+
+
+
+irb(main):012:1* array.collectirb(main):012:0> array.collect {|i| i+2}
+=>  
+[5, 
+ 6, 
+ 7, 
+ 8, 
+ 9, 
+ 10,
+ 11,
+ 12,
+ 13,
+ 14]
+irb(main):013:0> i
+irb(main):013:0> irb
+irb#1(main):001:1* array =(1. 
+                              
+                            
+                            
+irb#1(main):001:0> array =(1..10).to_a
+=>
+[1,
+...
+irb#1(main):002:0>
+irb#1(main):003:0>
+irb#1(main):004:0* array.     
+
+    
+    
+irb#1(main):004:1* array.each 
+irb#1(main):004:1* array.each 
+irb#1(main):004:1* array.each 
+do |i|
+irb#1(main):005:1*   puts i+2 
+irb#1(main):006:0> end        
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+=>
+[1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10]
