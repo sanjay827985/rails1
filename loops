@@ -1,0 +1,86 @@
+PS C:\Users\Sanjay Dwivedi\rails1> irb
+irb(main):001:0> i
+
+irb(main):001:0> i = 10      
+=> 10
+irb(main):002:1* while i     
+
+
+
+irb(main):002:1* while i != 100
+irb(main):002:1* while i != 1000
+irb(main):003:1*   puts 'Hello loops'
+irb(main):004:1*   i
+
+
+
+irb(main):002:1* while i != 100
+irb(main):003:1*   puts 'Hello loops'
+irb(main):004:1*   i += 10    
+irb(main):005:0> end
+Hello loops
+Hello loops
+Hello loops
+Hello loops
+Hello loops
+Hello loops
+Hello loops
+Hello loops
+Hello loops
+=> nil
+
+:006:1* 50.times do  
+    irb(main):006:1* 50.times do  
+    irb(main):007:1*   puts 'Hello loops'
+    irb(main):008:0> end
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    Hello loops
+    => 50

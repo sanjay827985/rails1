@@ -1,0 +1,53 @@
+PS C:\Users\Sanjay Dwivedi\rails1> irb
+irb(main):001:1> for i       
+                             
+
+                        
+irb(main):001:1* for i in 1...10
+irb(main):001:1* for i in 1...10
+irb(main):002:1*   puts 'hellosanjay'
+irb(main):003:0> end
+hellosanjay
+hellosanjay
+hellosanjay
+hellosanjay
+hellosanjay
+hellosanjay
+hellosanjay
+hellosanjay
+hellosanjay
+=> 1...10
+irb(main):004:1> for i       
+
+
+
+irb(main):004:1* for i in 1..10
+irb(main):004:1* for i in 1..irb(main):004:1* for i in 1..10
+irb(main):005:1*   puts 'hello sanjay developer'
+irb(main):006:0> end
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+hello sanjay developer       
+=> 1..10
+irb(main):007:0* 1.
+irb(main):007:0> (1..10).to_a
+
+=>
+[1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10]
+irb(main):008:0>

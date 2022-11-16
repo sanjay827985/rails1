@@ -1,0 +1,42 @@
+i = 1
+while i != 10
+puts "hello ruby dev"
+i += 1
+
+end
+
+//output
+
+PS C:\Users\Sanjay Dwivedi\rails1> irb
+irb(main):001:0> i = 1       
+=> 1
+irb(main):002:1* while i != 10
+irb(main):003:1* puts "hello 
+ruby dev"
+irb(main):004:1* i += 1      
+irb(main):005:0> end
+hello ruby dev
+hello ruby dev
+hello ruby dev
+hello ruby dev
+hello ruby dev
+hello ruby dev
+hello ruby dev
+hello ruby dev
+hello ruby dev
+=> nil
+
+i = 1
+while i != 10
+puts "hello ruby dev" // infinite
+
+end
+
+//example
+
+
+while i > 10
+puts "hello ruby dev" //nil
+i += 1
+
+end

@@ -1,0 +1,81 @@
+PS C:\Users\Sanjay Dwivedi\rails1> irb
+irb(main):001:1* person_info =[
+irb(main):002:1*     'sanjay','kumar','skumar0443@gmail.com','INDIA'
+irb(main):003:0> ]
+=> ["sanjay", "kumar", "skumar0443@gmail.com", "INDIA"]        
+irb(main):004:0> p
+irb(main):004:0> person
+Traceback (most recent call last):
+        19: from C:/Ruby27-x64/bin/irb:23:in `<main>'
+        18: from C:/Ruby27-x64/bin/irb:23:in `load'
+        17: from C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/irb-1.4.2/exe/irb:11:in `<top (required)>'
+(irb):4:in `<main>': undefined local variable or method `person' for main:Object (NameError)
+Did you mean?  person_info
+irb(main):005:0> p
+
+
+irb(main):005:0> person_info.class
+=> Array
+irb(main):006:0>
+irb(main):007:1* person_info = {
+irb(main):008:1*     first_name: 'ravi',
+irb(main):009:1*     last_name: 'kumar',
+irb(main):010:1*     email: 'ravi@123.com',
+irb(main):011:1*     contact: '1234566',
+irb(main):012:1*     address: 'indore'
+irb(main):013:0> }
+=>
+{:first_name=>"ravi",
+...
+irb(main):014:1* person_info = {
+irb(main):015:1*     first_name: 'ravi',
+irb(main):016:1*     last_name: 'kumar',
+irb(main):017:1*     email: 'ravi@123.com',
+irb(main):018:1*     contact: '1234566',
+irb(main):019:1*     address: 'indore'
+irb(main):020:0> }
+=>
+{:first_name=>"ravi",
+...
+irb(main):021:0> p
+irb(main):021:0> person_info[:first_name]
+=> "ravi"
+irb(main):022:0> p
+
+
+
+irb(main):022:0> person_info[:address]
+=> "indore"
+irb(main):023:0* hash.
+
+
+
+irb(main):023:0> hash.Hash.new
+Traceback (most recent call last):
+        19: from C:/Ruby27-x64/bin/irb:23:in `<main>'
+        18: from C:/Ruby27-x64/bin/irb:23:in `load'
+        17: from C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/irb-1.4.2/exe/irb:11:in `<top (required)>'
+(irb):23:in `<main>': private method `Hash' called for 1048987014:Integer (NoMethodError)
+irb(main):024:0* hash =Hash.
+
+
+                                                               
+irb(main):024:0> hash =Hash.new
+w                             w   
+=> {}
+irb(main):025:0> hash
+=> {}                             ay'}
+irb(main):026:0> hash ={one: 'sanjsanjay'}
+=> {:one=>"sanjay"}
+irb(main):027:0> hash['one']      
+=> nil
+irb(main):028:0> hash[:one]       
+=> "sanjay"
+irb(main):029:1* hash ={name :
+                              
+
+irb(main):029:0> hash ={name: 
+'sanjay',name:'kumar'}        
+(irb):29: warning: key :name is duplicated and overwritten on line 29
+=> {:name=>"kumar"}
+irb(main):030:0>
